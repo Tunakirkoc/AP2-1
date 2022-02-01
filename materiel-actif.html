@@ -13,7 +13,7 @@
     <title>SIOinfo - Configuration matériel actif</title>
 </head>
 
-<body style="background-color: rgba(24,24,27,255);">
+<body style="background-color: rgba(24,24,27,255);" class="text-white">
 
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
         <div class="container-fluid">
@@ -51,9 +51,41 @@
             </div>
         </div>
     </nav>
-
     <h1>Configuration du matériel actif</h1>
-
+    <h6>Switch : </h6>
+    <ul>192.168.0.10</ul>
+    <h6>Borne WIFI : </h6>
+    <ul>192.168.2.200 - 206 /24</ul>
+    <h1>Paramétrage VLAN</h1>
+    <div class="row justify-content-center">
+        <table class="table table-dark table-striped" style="width: 50%;">
+            <thead>
+                <tr>
+                    <th scope="col">VLAN</th>
+                    <th scope="col">Adresse Réseaux</th>
+                    <th scope="col">Masque Réseaux</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">STA</th>
+                    <td>192.168.3.0</td>
+                    <td>255.255.255.0</td>
+                </tr>
+                <tr>
+                    <th scope="row">WIFI</th>
+                    <td>192.168.2.0</td>
+                    <td>255.255.255.0</td>
+                </tr>
+                <tr>
+                    <th scope="row">Admin</th>
+                    <td>192.168.0.0</td>
+                    <td>255.255.255.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </div>
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
