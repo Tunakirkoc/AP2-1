@@ -51,12 +51,26 @@
             </div>
         </div>
     </nav>
-    <h1>Configuration du matériel actif</h1>
-    <h6>Switch : </h6>
-    <ul>192.168.0.10</ul>
-    <h6>Borne WIFI : </h6>
-    <ul>192.168.2.200 - 206 /24</ul>
-    <h1>Paramétrage VLAN</h1>
+
+    <div style="margin-left: 2%;margin-top: 1%;">
+        <h1>Configuration du matériel actif</h1>
+        <h5>Borne WIFI x 6 (UniFi Access Point WiFi 6 Long-Range) :</h5>
+        <ul>
+            <li>IP : 192.168.2.240 - 246 /24</li>
+            <li>Gateway : 192.168.2.254</li>
+        </ul>
+        <h5>Switch (UniFi Switch Pro 48 PoE) :</h5>
+        <ul>
+            <li>IP : 192.168.0.253 /24</li>
+            <li>Gateway : 192.168.0.254</li>
+        </ul>
+        <h5>Routeur (UniFi Dream Machine Pro) :</h5>
+        <ul>
+            <li>IP : 192.168.0.254 /24</li>
+        </ul>
+    </div>
+
+    <h1 style="text-align: center;">Paramétrage VLAN</h1>
     <div class="row justify-content-center">
         <table class="table table-dark table-striped" style="width: 50%;">
             <thead>
@@ -84,7 +98,6 @@
                 </tr>
             </tbody>
         </table>
-    </div>
     </div>
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
